@@ -5,8 +5,11 @@
 // import { MuiSwitch } from "./components/MuiSwitch";
 // import { MuiRating } from "./components/MuiRating";
 // import { MuiRadioButton } from "./components/MuiRadioButton";
-
-import { MuiAutoComplete } from "./components/MuiAutoComplete";
+// import { MuiAutoComplete } from "./components/MuiAutoComplete";
+// import { MuiLayout } from "./components/MuiLayout";
+// import { MuiCard } from "./components/MuiCard";
+// import { MuiAccordion } from "./components/MuiAccordion";
+import { MuiImageList } from "./components/MuiImageList";
 
 const App = () => {
   return (
@@ -19,7 +22,11 @@ const App = () => {
       {/* <MuiCheckBox /> */}
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
-      <MuiAutoComplete />
+      {/* <MuiAutoComplete /> */}
+      {/* <MuiLayout /> */}
+      {/* <MuiCard /> */}
+      {/* <MuiAccordion /> */}
+      <MuiImageList />
     </div>
   );
 };
