@@ -9,11 +9,24 @@
 // import { MuiLayout } from "./components/MuiLayout";
 // import { MuiCard } from "./components/MuiCard";
 // import { MuiAccordion } from "./components/MuiAccordion";
-import { MuiImageList } from "./components/MuiImageList";
+// import { MuiImageList } from "./components/MuiImageList";
+// import { MuiNavbar } from "./components/MuiNavbar";
+// import { MuiLink } from "./components/MuiLink";
+// import { MuiBreadCrumbs } from "./components/MuiBreadCrumbs";
+// import { MuiDrawer } from "./components/MuiDrawer";
+// import { MuiSpeedDial } from "./components/MuiSpeedDial";
+// import { MuiBottomNavigation } from "./components/MuiBottomNavigation";
+// import { MuiAvatar } from "./components/MuiAvatar";
+// import { MuiBadge } from "./components/MuiBadge";
+// import { MuiList } from "./components/MuiList";
+// import { MuiChip } from "./components/MuiChip";
+// import { MuiTooltip } from "./components/MuiTooltip";
+// import { MuiTable } from "./components/MuiTable";
+import { MuiAlert } from "./components/MuiAlert";
 
 const App = () => {
   return (
-    <div style={{ padding: "4rem" }}>
+    <div className="app">
       {/* <Mytypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
@@ -26,7 +39,20 @@ const App = () => {
       {/* <MuiLayout /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      {/* <MuiNavbar /> */}
+      {/* <MuiLink /> */}
+      {/* <MuiBreadCrumbs /> */}
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      {/* <MuiBottomNavigation /> */}
+      {/* <MuiAvatar /> */}
+      {/* <MuiBadge /> */}
+      {/* <MuiList /> */}
+      {/* <MuiChip /> */}
+      {/* <MuiTooltip /> */}
+      {/* <MuiTable /> */}
+      <MuiAlert />
     </div>
   );
 };
